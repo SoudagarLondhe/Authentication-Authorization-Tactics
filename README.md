@@ -45,3 +45,18 @@
     6. Test public endpoint (no auth required)
         - `curl http://localhost:8080/api/public/ping`
     
+### Libraries used 
+- Spring Boot 3.3.4 - Core application framework providing dependency injection and auto-configuration for rapid security implementation.
+
+- Spring Security 6 - Primary security framework implementing authentication and authorization tactics for protecting endpoints.
+
+- JJWT 0.11.5 - JSON Web Token library handling token creation, signature verification, and expiration for stateless authentication.
+
+- BCrypt Password Encoding - Secure password hashing algorithm protecting credentials with salted, adaptive hashing.
+
+- Spring Validation - Input validation framework ensuring data integrity in authentication requests through annotation-based checks.
+
+- Lombok - Code reduction library eliminating boilerplate (e.g., getters/setters) and improving maintainability.
+
+- Spring Boot Starter Test - Provides JUnit, Mockito, and Spring test utilities for validating authentication and authorization flows.
+

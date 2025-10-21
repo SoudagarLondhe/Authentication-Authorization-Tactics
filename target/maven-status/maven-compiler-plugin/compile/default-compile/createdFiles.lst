@@ -4,6 +4,7 @@ com\example\authz\config\JwtAuthFilter.class
 com\example\authz\model\Role.class
 com\example\authz\dto\LoginRequest.class
 com\example\authz\dto\TokenResponse.class
+com\example\authz\model\AppUser.class
 com\example\authz\AuthzApplication.class
 com\example\authz\api\AuthController.class
 com\example\authz\security\JwtService.class

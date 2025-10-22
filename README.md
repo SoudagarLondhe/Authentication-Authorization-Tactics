@@ -1,5 +1,8 @@
 # Spring Security Authentication & Authorization Implementation
 
+## Overview
+This application demonstrates rudimentary implementations of the Authentication and Authorization security tactics as described in [Software Architecture and Practice](https://www.oreilly.com/library/view/software-architecture-in/9780136885979/).
+
 ## Objectives Met
 - Implemented Authentication and Authorization security tactics
 - Used Spring Framework for implementation
